@@ -1,0 +1,47 @@
+.swipeButtons_card{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    bottom: 3vh;
+}
+.swiperButton{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: 16px 17px 64px 35px rgba(47, 35, 47, 0.27);
+    -moz-box-shadow: 16px 17px 64px 35px rgba(47, 35, 47, 0.27);
+    box-shadow: 16px 17px 64px 35px rgba(47, 35, 47, 0.27);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.swiperButton:nth-child(1) {
+    color: #f5b748;
+}
+.swiperButton:nth-child(3) {
+    color: hsl(181, 69%, 64%);
+}
+.swiperButton:nth-child(2) {
+    color: hsl(302, 66%, 65%);
+}
+.swiperButton:nth-child(4) {
+    color: #76e2b3;
+}
+.swiperButton:nth-child(5) {
+    color: #915dd1;
+}
+
+.swiperButton:hover{
+    -webkit-box-shadow: 14px 17px 64px 35px rgba(202, 30, 204, 0.27);
+    -moz-box-shadow: 14px 17px 64px 35px rgba(202, 30, 204, 0.27);
+    box-shadow: 14px 17px 64px 35px rgba(202, 30, 204, 0.27);
+    background: #000;
+    transition: .3s ease-in;
+}

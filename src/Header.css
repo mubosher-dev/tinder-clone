@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid #f9f9f9;
+    padding: 10px 20px;
+}
+.header_icons-button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.header_logo{
+    object-fit: contain;
+    height: 40px;
+}
+.header_icons-button > .header_icons{
+    color: grey;
+    padding: 20px;
+}

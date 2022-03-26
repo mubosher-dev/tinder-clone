@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Poppins:ital,wght@0,200;0,400;1,100;1,200&family=Raleway:wght@100&display=swap');
+.tenderCards{
+    position: relative;
+    height: 60vh!important;
+}
+
+.tinderCards_cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh !important;
+    position: relative!important;
+    height: 100%;
+}
+.swipe{
+    position: absolute;
+}
+.cards{
+    position: relative!important;
+    background: #fff;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 60vh!important;
+    background-position: center;
+    border-radius: 20px;
+    background-size: cover!important;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.cards_PersonName{
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
